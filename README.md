@@ -1,9 +1,14 @@
 # Polynomial class
 ## To use:
-```git clone https://github.com/oliceglad/Polynomial-class```
-``` from Polynomial import Poly, QuadraticPolynomial```
-## 1. Find the sum of polynomials
+```Bash
+git clone https://github.com/oliceglad/Polynomial-class
 ```
+
+```Python
+from Polynomial import Poly, QuadraticPolynomial
+```
+## 1. Find the sum of polynomials
+```Python
   poly1 = Poly([1,4,0.3654,-6,-1,0])
   poly2 = Poly()
   poly3 = Poly(1)
@@ -16,13 +21,13 @@
   print(8.1+poly3)
 ```
 ## 2. Find the multiply of polynomials or integers and floats
-```
+```Python
 poly1 = Poly([1, 1])
 poly2 = Poly(2, 1)
 print(poly1 * poly2)
 ```
 ## 3. Fint the difference of polynomials or integers and floats
-```
+```Python
 poly1 = Poly([1,4,0.3654,-6,-1,0])
 poly2 = Poly()
 poly3 = Poly(1)
@@ -36,7 +41,7 @@ print(poly1-4)
 print(3.5-poly2)
 ```
 ## 4. Compare two polynomials together or with integers and floats
-```
+```Python
 poly1 = Poly([1,4,0.3654,-6,-1,0])
 poly2 = Poly()
 poly3 = Poly(1)
@@ -50,17 +55,17 @@ print(0 == poly2)
 print(2 == poly2)
 ```
 ## 5. To know about degree of polynomial
-```
+```Python
 poly1 = Poly([-6, -2, 5, 1])
 print(poly1.degree())
 ```
 ## 6. Create polynomial from string numbers
-```
+```Python
 print(Poly.poly_from_str('1 2 3'))
 ```
 ## 7. Solve a QuadraticPolynomial by using Discriminant
 Important   - your polynomial`s degree must be 2
-```
+```Python
 poly1 = QuadraticPolynomial(2, 3, 1)
 print(poly1.solve())
 ```
