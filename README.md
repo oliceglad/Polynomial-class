@@ -1,5 +1,7 @@
 # Polynomial class
-
+## To use:
+```git clone https://github.com/oliceglad/Polynomial-class```
+``` from Polynomial import Poly, QuadraticPolynomial```
 ## 1. Find the sum of polynomials
 ```
   poly1 = Poly([1,4,0.3654,-6,-1,0])
